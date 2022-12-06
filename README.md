@@ -25,3 +25,13 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Json server
+
+Before runing JSON server, install dependencies: `npm install -g json-server`
+
+'server' folder contains an file called 'db.json' which is used to mock the backend. To run the server, run the following command:
+
+`json-server --watch db.json`
+
+This will run the server on port 3000. You can change the port by adding the following flag: `--port 3001`

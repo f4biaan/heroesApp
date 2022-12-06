@@ -34,4 +34,4 @@ Before runing JSON server, install dependencies: `npm install -g json-server`
 
 `json-server --watch db.json`
 
-This will run the server on port 3000. You can change the port by adding the following flag: `--port 3001`
+This will run the server on port 3000. You can change the port by adding the following flag: `--port 3000`

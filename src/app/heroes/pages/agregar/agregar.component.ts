@@ -10,8 +10,9 @@ import { switchMap } from 'rxjs/operators';
   styles: [
     `
       img {
-        width: 100%;
+        width: 90%;
         border-radius: 5px;
+        margin: 0 0 0 20px;
       }
     `,
   ],
@@ -63,5 +64,11 @@ export class AgregarComponent implements OnInit {
         this.router.navigate(['/heroes/editar', heroe.id]);
       });
     }
+  }
+
+  borrarHeroe() {
+    this.heroesService.borrarHeroe(this.heroe.id!).subscribe( resp => {
+      this.router.navigate(['/heroes']);
+    });
   }
 }

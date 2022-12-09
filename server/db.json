@@ -169,12 +169,30 @@
     },
     {
       "superhero": "ironman",
-      "alter_ego": "",
+      "alter_ego": "Stark",
       "characters": "",
       "first_appearance": "",
       "publisher": "Marvel Comics",
       "alt_img": "https://es.web.img3.acsta.net/medias/nmedia/18/66/64/01/20168724.jpg",
       "id": "NJat4Mv"
+    },
+    {
+      "superhero": "robin",
+      "alter_ego": "",
+      "characters": "",
+      "first_appearance": "",
+      "publisher": "Marvel Comics",
+      "alt_img": "",
+      "id": "w5KbMyK"
+    },
+    {
+      "superhero": "robina",
+      "alter_ego": "",
+      "characters": "",
+      "first_appearance": "",
+      "publisher": "DC Comics",
+      "alt_img": "",
+      "id": "I0p9jI9"
     }
   ]
 }
